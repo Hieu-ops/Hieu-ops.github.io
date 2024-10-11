@@ -1,0 +1,17 @@
+.container {
+    width: 80% ;
+    padding: 20px ;
+    margin: 0 auto ;
+    background-color: #f7f381;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border: 2px solid black;
+}
+
+.center {
+    text-align: center;
+}
+
+body {
+    font-family: Playfair Display, serif;
+    list-style: 1.6 ;
+}
