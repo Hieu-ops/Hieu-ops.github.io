@@ -1,6 +1,18 @@
+.container {
+    width: 500px ;
+    padding: 20px ;
+    margin: 0 auto ;
+    background-color: #f7f381;
+    box-shadow: 0 0 10px 2px ;
+    border: 2px solid black;
+    font-size: 30px;
+}
 
+.center {
+    text-align: center;
+}
 
-
-.p1 {
-    margin: 20px;
+body {
+    font-family: Playfair Display, serif;
+    list-style: 1.6 ;
 }
