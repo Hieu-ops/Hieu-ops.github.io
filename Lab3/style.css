@@ -3,7 +3,7 @@
     padding: 20px ;
     margin: 0 auto ;
     background-color: #f7f381;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 2px ;
     border: 2px solid black;
     font-size: 30px;
 }
