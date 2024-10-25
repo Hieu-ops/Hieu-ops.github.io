@@ -1,0 +1,33 @@
+
+span#id1 {
+    color: red;
+}
+
+span.highlight {
+    background-color: yellow;
+    color: blue;
+}
+#id2 {
+    color: green;
+}
+
+
+.red {
+    color: red;
+}
+.underline {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+    color: aqua;
+}
+
+.highlight1 {
+    color: blue;
+    background-color: yellow;
+}
+
+p[title = 'test'] {
+    color: gold;
+}
