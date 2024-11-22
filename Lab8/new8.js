@@ -1,6 +1,5 @@
-function calculate() {
+function calculate(operator) {
     let num1 = parseFloat(document.getElementById("num1").value);
-    let operator = document.getElementById("operator").value;
     let num2 = parseFloat(document.getElementById("num2").value);
     const resultDiv = document.getElementById("result") ;
     const errorDiv = document.getElementById('error') ;
