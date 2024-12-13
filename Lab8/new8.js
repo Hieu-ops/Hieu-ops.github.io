@@ -5,7 +5,7 @@ function calculate(operator) {
     const errorDiv = document.getElementById('error') ;
     let result;
 
-    resultDiv.style,display = "None" ;
+    resultDiv.style.display = "None" ;
     errorDiv.style.display = "None" ;
     if (num1 === " " || num2 === " ") {
         showerror("Vui lòng nhập lại.")
