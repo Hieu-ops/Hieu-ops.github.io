@@ -1,47 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .error {
+            color: red;
+            display: none;
+        }
+        .invalid {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <span class="error" id="usernameError">Username must be at least 3 characters long</span><br><br>
 
-<html lang = 'en'>
-    <head>
-        <title>Form HTML</title>
-        <meta charset = 'UTF-8'>
-        <meta name="viewport" content="width = device - width, initial_scale = 1.0">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <span class="error" id="emailError">Please enter a valid email address</span><br><br>
 
-    </head>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <span class="error" id="passwordError">Password must be at least 8 characters long and contain at least one number and one special character</span><br><br>
 
-    <body>
-        <form >
-            <label for="name" >Name: </label>
-            <input type="text" id="name" placeholder="Enter your name" required>
-            <br>
-            <label for = "email">Email: </label>
-            <input type="email" id="email" placeholder="Enter your email" required>
-            <br>
-            <label for="phone">Phone: </label>
-            <input type="tel" id="phone" placeholder="Enter your phone number">
-            <br>
-            <label for="age">Age: </label>
-            <input type="numer"  id="age" placeholder="Enter your age">
-            <br>
-            <label for="password">Password: </label>
-            <input type="password" id="password" placeholder="Enter your password" required>
-            <br>
-            <label for="gender">Gender: </label>
-            
-            <br>
-            <!--radio-->
-            <label for="gender2">Gender</label>
-            <input type="radio" id="male" value="Male" name="gender2">
-            <label for="male">Male</label>
-            <input type="radio" id="female" value = "Female" name = "gender2">
-            <label for="female">Female</label>
-            <input type="radio" id="no_prefer" value = "No prefer" name = "gender2">
-            <label for="no_prefer">No prefer</label>
-            <br>
-            <button type="submit">
-                Submit
-            </button>
-        </form>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+        <span class="error" id="confirmPasswordError">Passwords do not match</span><br><br>
 
-    </body>
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="text" id="phoneNumber" name="phoneNumber">
+        <span class="error" id="phoneError">Please enter a valid phone number (e.g., XXX-XXX-XXXX)</span><br><br>
 
+        <button type="button" onclick="validateForm()">Register</button>
+    </form>
 
+    <script src="midterm.js"></script>
+</body>
 </html>
